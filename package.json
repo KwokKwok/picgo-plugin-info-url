@@ -1,12 +1,12 @@
 {
   "name": "picgo-plugin-info-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "格式化图片名称，可在 url 中增加图片宽高等信息，便于瀑布流或图片占位",
   "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "",
+  "homepage": "https://github.com/KwokKwok/picgo-plugin-info-url#picgo-plugin-info-url-",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
@@ -21,6 +21,10 @@
     "picgo-plugin"
   ],
   "author": "KwokKwok <kwokglory@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KwokKwok/picgo-plugin-info-url.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.23",
